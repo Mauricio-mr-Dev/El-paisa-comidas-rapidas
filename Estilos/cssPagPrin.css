@@ -1,0 +1,131 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: red;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.cont-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  background-color: red;
+}
+
+.nav-inf {
+  font-size: 20px;
+  color: white;
+  width: 200px;
+  margin: 40px 0px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+li {
+  padding-left: 20px;
+  color: white;
+}
+
+ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+a :hover {
+  text-decoration: underline;
+}
+
+.cont {
+  position: relative;
+}
+.info-user {
+  height: 30px;
+  left: 240px;
+  bottom: 57px;
+  position: relative;
+  color: white;
+}
+
+.span-info-user {
+  position: relative;
+  bottom: 8px;
+  font-size: 17px;
+}
+
+.body-pag {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6) 100%),
+    url(../Img/font.2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  padding: 115px 0px;
+}
+.menu {
+  display: inline-flex;
+  width: 100%;
+  height: 100%;
+}
+
+.fila {
+  margin: 10px 0px;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+.img-men img {
+  width: 250px;
+  height: 250px;
+  border: 4px rgb(255, 255, 255) solid;
+  border-radius: 30px;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+h3 {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+button {
+  position: relative;
+  bottom: 12px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: red;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  width: 185px;
+  font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+
+  border: 1px solid white;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #ff0000;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  display: none;
+}

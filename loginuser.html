@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>INICIAR SESION</title>
+    <link rel="stylesheet" href="Estilos/estiloslogin.css" />
+    <link rel="shortcut icon" href="Img/Logo.png" type="image/x-icon">
+  </head>
+  <body>
+
+    
+    <div class="cont-form">  
+        <form action="backend/validarlogin.php" method="POST">
+
+          <div class="h1text">
+            <h1>Bienvenido al paisa comidas rapidas</h1>
+          </div>
+
+          <div class="textinise">
+            <h2>INICIAR SESIÓN</h2>
+          </div>
+          
+          <label for="" class="lblcorreo">Correo:</label>
+          <input type="email" / style="height:24px ;" name="correo">
+           <br /><br />
+          <label for="">Contraseña:</label>
+          <input type="password" / style="height:24px ;" name="contraseña"> <br>
+
+          <input type="checkbox" name="" id="" class="checkbox">
+          <span>Acepta los terminos y condiciones</span> <br>
+
+          <button type="submit" class="btn-inises">INICIAR SESIÓN</button>
+
+          <a href="backend/newuser.php" class="linkregis">SI NO TIENES CUENTA HAZ CLICK ACA PARA REGISTRASE</a>
+        </form>    
+    </div>
+  </body>
+</html>
